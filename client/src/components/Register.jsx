@@ -15,6 +15,8 @@ const Register = ({ handleAuthType }) => {
         toast.success("User is Registered")
     }
 
+    console.log(errors)
+
 
     return (
         <div className=" border border-border p-4">

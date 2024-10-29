@@ -12,7 +12,7 @@ const Input = ({ type, id, name, placeholder, className, register, validate, err
                 {...props}
             />
 
-            {errors.name && <p className="text-xs text-red">
+            {errors[name] && <p className="text-xs text-red">
                 {errors[name]?.message}
             </p>}
         </>
